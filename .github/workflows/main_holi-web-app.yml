@@ -53,4 +53,4 @@ jobs:
           app-name: 'holi-web-app'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB3491DE38F6409BABD1406583BDD831 }}
-          package: .
+          package: ./build
